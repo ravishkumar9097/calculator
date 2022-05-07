@@ -37,7 +37,7 @@ const App = () => {
             <input type="button" value="/" className="button" onClick={clickHandler} />
             <input type="button" value="%" className="button" onClick={clickHandler} />
             <input type="button" value="Clear" className="button button1" onClick={clearDisplay} />
-            <input type="button" value="=" className="button button1" onClick={calculate} />
+            <input type="button" value="Result" className="button button1" onClick={calculate} />
 
         </div>
     )
